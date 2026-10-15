@@ -35,6 +35,45 @@ The application demonstrates a Smart Registration form. The user can enter their
 
 ---
 
+## Project Structure
+
+```text
+BasicViewsDemo/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── [package_name]/
+│           │       └── MainActivity.kt
+│           │
+│           ├── res/
+│           │   ├── drawable/
+│           │           # Drawable resources
+│           │   ├── layout/
+│           │   │   └── activity_main.xml
+│           │   └── values/
+│           │       ├── colors.xml
+│           │       ├── strings.xml
+│           │       └── themes.xml
+│           │
+│           └── AndroidManifest.xml
+│
+├── screenshots/
+│   ├── main_screen.png
+│   ├── test_case_2.png
+│   ├── test_case_3.png
+│   └── output.png
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── .gitignore
+└── README.md
+```
+
 # Test Cases
 
 ## Test Case 1 – Main Screen
